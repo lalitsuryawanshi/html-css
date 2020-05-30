@@ -1,0 +1,67 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+ 	grid-template-rows: repeat(3, 100px); 
+	grid-gap: 10px;
+}
+
+
+
+/* Demo style - not necessary for Grid */
+.demo {
+	color: rgba(255, 255, 255, 2);
+	padding: 2rem;
+	border-radius: 3px;
+}
+
+header.demo {
+	background-color: #6B5CA5;
+}
+
+aside.demo {
+	background-color: #52AA8A;
+}
+
+main.demo {
+	background-color: #F76C5E;
+}
+
+footer.demo {
+	background-color: #3AAED8;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-template-rows: 100px 300px 100px;
+}
+
+header {
+	/* use this or a shortcut
+	grid-column-start: 1;
+	grid-column-end: -1;
+	*/ 
+	grid-column: 1 / -1;
+}
+
+main {
+	grid-column: 1 / -1; 
+}
+
+aside {
+	grid-column: -1;
+	grid-row: 1 / -1; 
+}
+
+footer {
+	grid-column: 1 / -1; 
+}
+
+
+
+
+
+
+
+
+
