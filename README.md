@@ -1,7 +1,3 @@
-# CSS Grid Layout Samples
+# HTML CSS Samples
 
-### CSS Grid Sidebar
-
-### CSS Grid Sidebar Left
-
-### CSS Grid Sidebar Right
+### CSS Grid Layouts
